@@ -1,0 +1,78 @@
+*   Trying 176.34.135.167...
+* Connected to www.duckduckgo.com (176.34.135.167) port 80 (#0)
+> HEAD / HTTP/1.1
+> Host: www.duckduckgo.com
+> User-Agent: curl/7.43.0
+> Accept: */*
+> 
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx
+< Date: Wed, 28 Sep 2016 20:46:29 GMT
+< Content-Type: text/html
+< Content-Length: 178
+< Connection: keep-alive
+< Location: https://duckduckgo.com/
+< Expires: Thu, 28 Sep 2017 20:46:29 GMT
+< Cache-Control: max-age=31536000
+< 
+* Connection #0 to host www.duckduckgo.com left intact
+* Issue another request to this URL: 'https://duckduckgo.com/'
+*   Trying 176.34.155.20...
+* Connected to duckduckgo.com (176.34.155.20) port 443 (#1)
+* found 187 certificates in /etc/ssl/certs/ca-certificates.crt
+* found 758 certificates in /etc/ssl/certs
+* ALPN, offering http/1.1
+* SSL connection using TLS1.2 / ECDHE_RSA_AES_128_GCM_SHA256
+* 	 server certificate verification OK
+* 	 server certificate status verification SKIPPED
+* 	 common name: *.duckduckgo.com (matched)
+* 	 server certificate expiration date OK
+* 	 server certificate activation date OK
+* 	 certificate public key: RSA
+* 	 certificate version: #3
+* 	 subject: C=US,ST=Pennsylvania,L=Paoli,O=Duck Duck Go\, Inc.,CN=*.duckduckgo.com
+* 	 start date: Wed, 25 May 2016 00:00:00 GMT
+* 	 expire date: Wed, 26 Jul 2017 12:00:00 GMT
+* 	 issuer: C=US,O=DigiCert Inc,CN=DigiCert SHA2 Secure Server CA
+* 	 compression: NULL
+* ALPN, server did not agree to a protocol
+> HEAD / HTTP/1.1
+> Host: duckduckgo.com
+> User-Agent: curl/7.43.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Server: nginx
+< Date: Wed, 28 Sep 2016 20:46:29 GMT
+< Content-Type: text/html; charset=UTF-8
+< Content-Length: 5009
+< Connection: keep-alive
+< ETag: "57ebf978-1391"
+< Expires: Wed, 28 Sep 2016 20:46:28 GMT
+< Cache-Control: no-cache
+< Strict-Transport-Security: max-age=31536000
+< Accept-Ranges: bytes
+< 
+* Connection #1 to host duckduckgo.com left intact
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 28 Sep 2016 20:46:29 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://duckduckgo.com/
+Expires: Thu, 28 Sep 2017 20:46:29 GMT
+Cache-Control: max-age=31536000
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 28 Sep 2016 20:46:29 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 5009
+Connection: keep-alive
+ETag: "57ebf978-1391"
+Expires: Wed, 28 Sep 2016 20:46:28 GMT
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=31536000
+Accept-Ranges: bytes
+
