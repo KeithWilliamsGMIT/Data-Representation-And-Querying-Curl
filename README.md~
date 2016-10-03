@@ -5,7 +5,7 @@ After downloading http://www.jmarshall.com/easy/http/ I used a file redirect (>)
 ## Problem 3
 I used the -L (--location) flag because the requested page had been moved to a different location. The -L flag will make curl redo the request on the new place.
 
-Using the -v (--verbose) flag, as required in the question, curl returned the http headers and the body. I also experimented with the -I (--head) flag which only returned the http headers.
+Using the -v (--verbose) flag as required in the question returned the http headers and the body. I also experimented with the -I (--head) flag which only returned the http headers.
 
 The -s (--silent) flag didn't return any progress bars.
 
