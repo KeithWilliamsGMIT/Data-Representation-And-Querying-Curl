@@ -18,3 +18,8 @@ Similar to the previous problems but the URL had to be wrapped in quotes due to 
 I had to wrap the URL in quotes because of the ampersand in the parameter list like in problem 4.
 
 I piped the result to the python json.tool module to format it before outputting to the file gmit.json.
+
+## Problem 6
+I started the python SimpleHTTPServer without specifying a port number which defaults to 8000. I then used curl to access the page at http://localhost:8000/index.html.
+
+I downloaded the files from the CDN, similar to the previous problems.
