@@ -13,3 +13,8 @@ I also had to add 2>&1 to the end of the command to combine stderr and stdout so
 
 ## Problem 4
 Similar to the previous problems but the URL had to be wrapped in quotes due to the ampersand in the parameter list.
+
+## Problem 5
+I had to wrap the URL in quotes because of the ampersand in the parameter list like in problem 4.
+
+I piped the result to the python json.tool module to format it before outputting to the file gmit.json.

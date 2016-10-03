@@ -1,0 +1,171 @@
+{
+    "Abstract": "Galway-Mayo Institute of Technology is a third level institute of education and is based at five locations in the west of Ireland.",
+    "AbstractSource": "Wikipedia",
+    "AbstractText": "Galway-Mayo Institute of Technology is a third level institute of education and is based at five locations in the west of Ireland.",
+    "AbstractURL": "https://en.wikipedia.org/wiki/Galway-Mayo_Institute_of_Technology",
+    "Answer": "",
+    "AnswerType": "",
+    "Definition": "",
+    "DefinitionSource": "",
+    "DefinitionURL": "",
+    "Entity": "location",
+    "Heading": "Galway-Mayo Institute of Technology",
+    "Image": "https://duckduckgo.com/i/99e55c54.jpg",
+    "ImageHeight": 80,
+    "ImageIsLogo": 1,
+    "ImageWidth": 255,
+    "Infobox": {
+        "content": [
+            {
+                "data_type": "string",
+                "label": "Location",
+                "sort_order": "1",
+                "value": "Galway - Castlebar - Cluain Mhuire - Letterfrack - Mountbellew",
+                "wiki_order": 3
+            },
+            {
+                "data_type": "string",
+                "label": "Students",
+                "sort_order": "2",
+                "value": "9,000",
+                "wiki_order": 2
+            },
+            {
+                "data_type": "string",
+                "label": "President",
+                "sort_order": "3",
+                "value": "Dr Fergal J. Barry",
+                "wiki_order": 1
+            }
+        ],
+        "meta": [
+            {
+                "data_type": "string",
+                "label": "article_title",
+                "value": "Galway-Mayo Institute of Technology"
+            },
+            {
+                "data_type": "string",
+                "label": "template_name",
+                "value": "infobox university"
+            },
+            {
+                "data_type": "string",
+                "label": "above",
+                "value": "Galway-Mayo Institute of Technology"
+            },
+            {
+                "data_type": "string",
+                "label": "subheader",
+                "value": "Instit\u00faid Teicneola\u00edochta na Gaillimhe-Maigh Eo"
+            },
+            {
+                "data_type": "string",
+                "label": "formatting_rules",
+                "value": "university"
+            }
+        ]
+    },
+    "Redirect": "",
+    "RelatedTopics": [
+        {
+            "FirstURL": "https://duckduckgo.com/c/Education_in_County_Galway",
+            "Icon": {
+                "Height": "",
+                "URL": "",
+                "Width": ""
+            },
+            "Result": "<a href=\"https://duckduckgo.com/c/Education_in_County_Galway\">Education in County Galway</a>",
+            "Text": "Education in County Galway"
+        },
+        {
+            "FirstURL": "https://duckduckgo.com/c/Castlebar",
+            "Icon": {
+                "Height": "",
+                "URL": "",
+                "Width": ""
+            },
+            "Result": "<a href=\"https://duckduckgo.com/c/Castlebar\">Castlebar</a>",
+            "Text": "Castlebar"
+        },
+        {
+            "FirstURL": "https://duckduckgo.com/c/Universities_and_colleges_in_the_Republic_of_Ireland",
+            "Icon": {
+                "Height": "",
+                "URL": "",
+                "Width": ""
+            },
+            "Result": "<a href=\"https://duckduckgo.com/c/Universities_and_colleges_in_the_Republic_of_Ireland\">Universities and colleges in the Republic of Ireland</a>",
+            "Text": "Universities and colleges in the Republic of Ireland"
+        }
+    ],
+    "Results": [
+        {
+            "FirstURL": "http://www.gmit.ie/",
+            "Icon": {
+                "Height": 16,
+                "URL": "https://duckduckgo.com/i/gmit.ie.ico",
+                "Width": 16
+            },
+            "Result": "<a href=\"http://www.gmit.ie/\"><b>Official site</b></a><a href=\"http://www.gmit.ie/\"></a>",
+            "Text": "Official site"
+        }
+    ],
+    "Type": "A",
+    "meta": {
+        "attribution": null,
+        "blockgroup": null,
+        "created_date": null,
+        "description": "Wikipedia",
+        "designer": null,
+        "dev_date": null,
+        "dev_milestone": "live",
+        "developer": [
+            {
+                "name": "DDG Team",
+                "type": "ddg",
+                "url": "http://www.duckduckhack.com"
+            }
+        ],
+        "example_query": "nikola tesla",
+        "id": "wikipedia_fathead",
+        "is_stackexchange": null,
+        "js_callback_name": "wikipedia",
+        "live_date": null,
+        "maintainer": {
+            "github": "duckduckgo"
+        },
+        "name": "Wikipedia",
+        "perl_module": "DDG::Fathead::Wikipedia",
+        "producer": null,
+        "production_state": "offline",
+        "repo": "fathead",
+        "signal_from": "wikipedia_fathead",
+        "src_domain": "en.wikipedia.org",
+        "src_id": 1,
+        "src_name": "Wikipedia",
+        "src_options": {
+            "directory": "",
+            "is_fanon": 0,
+            "is_mediawiki": 1,
+            "is_wikipedia": 1,
+            "language": "en",
+            "min_abstract_length": "20",
+            "skip_abstract": 0,
+            "skip_abstract_paren": 0,
+            "skip_end": "0",
+            "skip_icon": 0,
+            "skip_image_name": 0,
+            "skip_qr": "",
+            "source_skip": "",
+            "src_info": ""
+        },
+        "src_url": null,
+        "status": "live",
+        "tab": "About",
+        "topic": [
+            "productivity"
+        ],
+        "unsafe": 0
+    }
+}
